@@ -1,0 +1,98 @@
+datasets:
+  - id: "01"
+    name: "Long-Term AF Database"
+    short_name: "ltafdb"
+    modality: "ECG"
+    records: 84
+    sampling_rate_hz: 128
+    annotation: "beat and rhythm"
+    license: "ODC-BY 1.0"
+    access: "public"
+    official_url: "https://physionet.org/content/ltafdb/1.0.0/"
+    doi: "10.13026/C2QG6Q"
+    citation: "Petrutiu et al. 2007"
+  - id: "02"
+    name: "MIT-BIH Atrial Fibrillation Database"
+    short_name: "afdb"
+    modality: "ECG"
+    records: 25
+    sampling_rate_hz: 250
+    annotation: "beat and rhythm"
+    license: "ODC-BY 1.0"
+    access: "public"
+    official_url: "https://physionet.org/content/afdb/1.0.0/"
+    doi: "10.13026/C2MW2D"
+    citation: "Moody and Mark 1983"
+  - id: "03"
+    name: "MIT-BIH Arrhythmia Database"
+    short_name: "mitdb"
+    modality: "ECG"
+    records: 48
+    sampling_rate_hz: 360
+    annotation: "beat and rhythm"
+    license: "ODC-BY 1.0"
+    access: "public"
+    official_url: "https://physionet.org/content/mitdb/1.0.0/"
+    doi: "10.13026/C2F305"
+    citation: "Moody and Mark 2001"
+  - id: "04"
+    name: "Icentia11k"
+    short_name: "icentia11k"
+    modality: "ECG"
+    records: 11000
+    sampling_rate_hz: 250
+    annotation: "beat and rhythm"
+    license: "CC BY-NC-SA 4.0"
+    access: "public non-commercial"
+    official_url: "https://physionet.org/content/icentia11k-continuous-ecg/1.0/"
+    doi: "10.13026/kk0v-r952"
+    citation: "Tan et al. 2022"
+  - id: "05"
+    name: "PhysioNet/CinC Challenge 2020"
+    short_name: "challenge-2020"
+    modality: "ECG"
+    records: 43101
+    sampling_rate_hz: "257-1000"
+    annotation: "diagnosis labels"
+    license: "CC BY 4.0"
+    access: "public"
+    official_url: "https://physionet.org/content/challenge-2020/1.0.2/"
+    doi: "10.13026/dvyd-kd57"
+    citation: "Perez Alday et al. 2020"
+  - id: "06"
+    name: "IRIDIA-AF"
+    short_name: "iridia-af"
+    modality: "ECG"
+    records: 167
+    sampling_rate_hz: 200
+    annotation: "AF episodes"
+    license: "CC BY 4.0"
+    access: "public"
+    official_url: "https://zenodo.org/records/8405941"
+    doi: "10.5281/zenodo.8405941"
+    citation: "Gilon et al. 2023"
+  - id: "07"
+    name: "Long-term ECG and wrist PPG with annotated AF"
+    short_name: "zenodo-5815074"
+    modality: ["ECG", "PPG"]
+    records: 8
+    sampling_rate_hz: "100 PPG / 500 ECG"
+    annotation: "AF episodes"
+    license: "custom non-commercial"
+    access: "restricted"
+    official_url: "https://zenodo.org/records/5815074"
+    doi: "10.5281/zenodo.5815074"
+    citation: "See dataset record"
+  - id: "08"
+    name: "Peter Charlton Datasets"
+    short_name: "charlton-datasets"
+    modality: ["ECG", "PPG"]
+    records: "index"
+    sampling_rate_hz: null
+    annotation: "index"
+    license: "varies"
+    access: "public index"
+    official_url: "https://peterhcharlton.github.io/info/datasets"
+    doi: null
+    citation: "See individual dataset"
+

@@ -1,0 +1,10 @@
+id,name,short_name,modality,records,sampling_rate,annotation,license,access,official_url,doi,citation
+01,Long-Term AF Database,ltafdb,ECG,84 records,128 Hz,Beat and rhythm,ODC-BY 1.0,Public,https://physionet.org/content/ltafdb/1.0.0/,10.13026/C2QG6Q,Petrutiu et al. 2007
+02,MIT-BIH Atrial Fibrillation Database,afdb,ECG,25 records,250 Hz,Beat and rhythm,ODC-BY 1.0,Public,https://physionet.org/content/afdb/1.0.0/,10.13026/C2MW2D,Moody and Mark 1983
+03,MIT-BIH Arrhythmia Database,mitdb,ECG,48 records,360 Hz,Beat and rhythm,ODC-BY 1.0,Public,https://physionet.org/content/mitdb/1.0.0/,10.13026/C2F305,Moody and Mark 2001
+04,Icentia11k,icentia11k,ECG,11000 patients,250 Hz,Beat and rhythm,CC BY-NC-SA 4.0,Public non-commercial,https://physionet.org/content/icentia11k-continuous-ecg/1.0/,10.13026/kk0v-r952,Tan et al. 2022
+05,PhysioNet/CinC Challenge 2020,challenge-2020,ECG,43101 records,257-1000 Hz,Diagnosis labels,CC BY 4.0,Public,https://physionet.org/content/challenge-2020/1.0.2/,10.13026/dvyd-kd57,Perez Alday et al. 2020
+06,IRIDIA-AF,iridia-af,ECG,167 records,200 Hz,AF episodes,CC BY 4.0,Public,https://zenodo.org/records/8405941,10.5281/zenodo.8405941,Gilon et al. 2023
+07,Long-term ECG and wrist PPG with annotated AF,zenodo-5815074,"ECG, PPG",8 patients,100 Hz PPG / 500 Hz ECG,AF episodes,Custom non-commercial,Restricted,https://zenodo.org/records/5815074,10.5281/zenodo.5815074,See dataset record
+08,Peter Charlton Datasets,charlton-datasets,"ECG, PPG",Index,-,Index,Varies,Public index,https://peterhcharlton.github.io/info/datasets,-,See individual dataset
+

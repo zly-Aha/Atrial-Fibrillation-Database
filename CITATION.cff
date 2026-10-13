@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this resource index, please cite it as below. Cite the original dataset references when using their data."
+title: "Atrial Fibrillation Database"
+abstract: "A curated index of public ECG and PPG datasets for atrial fibrillation research, with license and access notes."
+type: software
+authors:
+  - name: "Zhang Lingyu"
+    alias: "zly-Aha"
+repository-code: "https://github.com/zly-Aha/Atrial-Fibrillation-Database"
+url: "https://github.com/zly-Aha/Atrial-Fibrillation-Database"
+license: MIT
+date-released: "2026-10-13"
+keywords:
+  - atrial fibrillation
+  - ECG
+  - PPG
+  - dataset
+  - biomedical signal processing
+

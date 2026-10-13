@@ -1,0 +1,78 @@
+# Local datasets: never commit raw or processed signal data
+data/*
+!data/README.md
+data/raw/
+data/processed/
+data/interim/
+data/external/
+**/raw/
+**/processed/
+**/interim/
+**/external/
+
+# Common signal formats
+*.dat
+*.atr
+*.qrs
+*.qrsc
+*.hea
+*.edf
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.tsv
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.parquet
+
+# Downloaded or derived tabular data
+data/**/*.csv
+data/**/*.tsv
+
+# Keep the curated metadata catalog under version control
+!metadata/datasets.csv
+!metadata/datasets.yaml
+
+# Credentials and environment files
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+token.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# R and MATLAB
+.Rhistory
+.RData
+.Ruserdata
+*.asv
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary output
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
