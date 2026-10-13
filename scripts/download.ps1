@@ -58,6 +58,13 @@ $catalog = [ordered]@{
         Description = "Long-term ECG and wrist PPG with annotated AF"
         Manual      = $true
     }
+    "ppg-arrhythmia-detection" = @{
+        Url         = "https://github.com/zdzdliu/PPGArrhythmiaDetection"
+        Size        = "see repository (.mat validation and test sets)"
+        License     = "not declared, check upstream"
+        Description = "Multiclass PPG arrhythmia detection with AF class"
+        GitClone    = $true
+    }
 }
 
 function Show-Catalog {
@@ -167,6 +174,14 @@ foreach ($name in $Dataset) {
     Write-Host "[$name] License: $($item.License)"
     Write-Host "[$name] Size: $($item.Size)"
     Write-Host "[$name] Target: $target"
+
+    if ($item.GitClone) {
+        git clone --depth 1 $item.Url $target
+        if ($LASTEXITCODE -ne 0) {
+            Write-Warning "[$name] git clone failed. Check the repository URL and your network."
+        }
+        continue
+    }
 
     $exitCode = Get-PhysioNetFiles -Url $item.Url -Target $target
     if ($exitCode -ne 0) {

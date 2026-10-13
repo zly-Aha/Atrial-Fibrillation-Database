@@ -14,6 +14,7 @@ A curated index of public ECG and PPG resources for atrial fibrillation (AF) res
 | 06 | [IRIDIA-AF](https://zenodo.org/records/8405941) | 2-lead ECG | 167 recordings from 152 patients | CC BY 4.0 | Public |
 | 07 | [Long-term ECG and wrist PPG with annotated AF](https://zenodo.org/records/5815074) | ECG + wrist PPG | 8 patients, 1,306 h | Custom non-commercial | Restricted, request access |
 | 08 | [Peter Charlton Datasets](https://peterhcharlton.github.io/info/datasets) | ECG, PPG, and more | Index | Varies by dataset | Public index |
+| 09 | [PPGArrhythmiaDetection](https://github.com/zdzdliu/PPGArrhythmiaDetection) | Wrist PPG | 228 patients, 118,217 paired 10 s segments | Not declared, check upstream | Public code with validation and test sets |
 
 ## Repository Layout
 

@@ -95,4 +95,17 @@ datasets:
     official_url: "https://peterhcharlton.github.io/info/datasets"
     doi: null
     citation: "See individual dataset"
+  - id: "09"
+    name: "PPGArrhythmiaDetection"
+    short_name: "ppg-arrhythmia-detection"
+    modality: "PPG"
+    records: 228
+    sampling_rate_hz: 100
+    annotation: "multiclass rhythm, 6 classes"
+    license: "not declared"
+    access: "public code and data"
+    official_url: "https://github.com/zdzdliu/PPGArrhythmiaDetection"
+    doi: null
+    citation: "Liu et al. 2022"
+
 

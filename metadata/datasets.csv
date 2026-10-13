@@ -7,4 +7,5 @@ id,name,short_name,modality,records,sampling_rate,annotation,license,access,offi
 06,IRIDIA-AF,iridia-af,ECG,167 records,200 Hz,AF episodes,CC BY 4.0,Public,https://zenodo.org/records/8405941,10.5281/zenodo.8405941,Gilon et al. 2023
 07,Long-term ECG and wrist PPG with annotated AF,zenodo-5815074,"ECG, PPG",8 patients,100 Hz PPG / 500 Hz ECG,AF episodes,Custom non-commercial,Restricted,https://zenodo.org/records/5815074,10.5281/zenodo.5815074,See dataset record
 08,Peter Charlton Datasets,charlton-datasets,"ECG, PPG",Index,-,Index,Varies,Public index,https://peterhcharlton.github.io/info/datasets,-,See individual dataset
+09,PPGArrhythmiaDetection,ppg-arrhythmia-detection,PPG,228 patients,100 Hz,Multiclass rhythm (6 classes),Not declared,Public code and data,https://github.com/zdzdliu/PPGArrhythmiaDetection,-,Liu et al. 2022
 

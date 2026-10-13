@@ -91,3 +91,17 @@
 - 说明：各数据集许可与访问方式不同，请进入对应数据集页面确认
 - 引用：引用对应数据集的原始论文和数据说明
 
+## 9. PPGArrhythmiaDetection
+
+- 官方链接：https://github.com/zdzdliu/PPGArrhythmiaDetection
+- 发布方：GitHub（zdzdliu）
+- 内容：PPG 多分类心律不齐检测的代码与数据（验证集、测试集）；研究共纳入 228 名患者、118,217 对 10 秒 PPG/ECG 片段
+- 信号：腕部 PPG，片段长度 10 秒
+- 采样率：100 Hz
+- 标注：0 窦性心律、1 室性早搏、2 房性早搏、3 室性心动过速、4 室上性心动过速、5 房颤
+- 许可：仓库未声明开源许可证，使用与再分发前请先联系原作者确认
+- DOI：无
+- 引用：Liu Z, Zhou B, Jiang Z, Chen X, Li Y, Tang M, Miao F. Multiclass Arrhythmia Detection and Classification From Photoplethysmography Signals Using a Deep Convolutional Neural Network. Journal of the American Heart Association. 2022;11(7):e023555.
+
+注意：该仓库未附许可证文件。在获得作者明确授权前，请仅按原仓库用途使用代码与数据，不要再分发。
+

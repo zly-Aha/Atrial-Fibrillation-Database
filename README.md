@@ -14,6 +14,7 @@
 | 06 | [IRIDIA-AF](https://zenodo.org/records/8405941) | 2 导联 ECG | 167 条记录（152 名患者） | CC BY 4.0 | 公开 |
 | 07 | [Long-term ECG and wrist PPG with annotated AF](https://zenodo.org/records/5815074) | ECG + 腕部 PPG | 8 名患者，1,306 小时 | 自定义非商业许可 | 需申请授权 |
 | 08 | [Peter Charlton Datasets](https://peterhcharlton.github.io/info/datasets) | ECG、PPG 等 | 资源目录 | 以各数据集为准 | 汇总索引 |
+| 09 | [PPGArrhythmiaDetection](https://github.com/zdzdliu/PPGArrhythmiaDetection) | 腕部 PPG | 228 名患者，118,217 对 10 秒片段 | 未声明，以原仓库为准 | 公开代码与验证/测试集 |
 
 ## 目录结构
 
